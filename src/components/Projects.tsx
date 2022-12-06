@@ -55,7 +55,7 @@ function Projects({}: Props) {
                         whileInView={{
                             opacity: 1,
                         }}
-                        className="flex flex-col md:flex-row max-w-6xl justify-center items-center"
+                        className="flex flex-col md:flex-row max-w-6xl justify-center items-center px-8 md:px-0"
                         onClick={() => {
                             setModalIsOpen(true);
                             setMobileImage(reMobile);
@@ -78,9 +78,9 @@ function Projects({}: Props) {
                         <img
                             src={rently}
                             alt="rently project"
-                            className="h-44 md:h-60 drop-shadow-2xl"
+                            className="h-36 md:h-60 drop-shadow-2xl mb-5 md:mb-0"
                         />
-                        <div className="ml-16">
+                        <div className="ml-0 md:ml-16 text-center md:text-left">
                             <h3 className="text-2xl md:text-4xl mb-3 md:mb-6 font-semibold">
                                 Rently: real estate website
                             </h3>
@@ -105,7 +105,7 @@ function Projects({}: Props) {
                         whileInView={{
                             opacity: 1,
                         }}
-                        className="flex flex-col md:flex-row max-w-6xl justify-center items-center"
+                        className="flex flex-col md:flex-row max-w-6xl justify-center items-center px-8 md:px-0"
                         onClick={() => {
                             setModalIsOpen(true);
                             setMobileImage(upMobile);
@@ -128,9 +128,9 @@ function Projects({}: Props) {
                         <img
                             src={unitedpioneers}
                             alt="rently project"
-                            className="h-44 md:h-60"
+                            className="h-36 md:h-60 drop-shadow-2xl mb-5 md:mb-0"
                         />
-                        <div className="ml-16">
+                        <div className="ml-0 md:ml-16 text-center md:text-left">
                             <h3 className="text-2xl md:text-4xl mb-3 md:mb-6 font-semibold">
                                 united pioneers:
                                 <br />
@@ -153,7 +153,7 @@ function Projects({}: Props) {
                         whileInView={{
                             opacity: 1,
                         }}
-                        className="flex flex-col md:flex-row max-w-6xl justify-center items-center"
+                        className="flex flex-col md:flex-row max-w-6xl justify-center items-center px-8 md:px-0"
                         onClick={() => {
                             setModalIsOpen(true);
                             setMobileImage(conMobile);
@@ -176,9 +176,9 @@ function Projects({}: Props) {
                         <img
                             src={currencyconverter}
                             alt="rently project"
-                            className="h-44 md:h-60"
+                            className="h-36 md:h-60 drop-shadow-2xl mb-5 md:mb-0"
                         />
-                        <div className="ml-16">
+                        <div className="ml-0 md:ml-16 text-center md:text-left">
                             <h3 className="text-2xl md:text-4xl mb-3 md:mb-6 font-semibold">
                                 Currency Converter
                             </h3>

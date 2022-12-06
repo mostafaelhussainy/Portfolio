@@ -135,9 +135,9 @@ function ProjectsModal({
                     </a>
                 </div>
                 <div className="flex flex-wrap md:-m-2 -m-1">
-                    <div className="flex flex-wrap w-1/2">
+                    <div className="flex flex-wrap w-full md:w-1/2 mb-10 md:mb-0">
                         <div className="text-left mx-auto pt-8">
-                            <h3 className="tracking-[10px] text-blue-600 text-3xl font-bold	uppercase mb-8 inline-block">
+                            <h3 className="tracking-[3px] md:tracking-[10px] text-blue-600 text-xl md:text-3xl font-bold uppercase mb-8 inline-block">
                                 large screens{' '}
                                 <MdComputer className="mx-auto mt-4" />
                             </h3>
@@ -150,7 +150,7 @@ function ProjectsModal({
                             />
                         </div>
                     </div>
-                    <div className="flex flex-wrap w-1/2">
+                    <div className="flex flex-wrap w-full md:w-1/2 border-t-2 border-blue-600 pt-10 md:pt-0 md:border-t-0">
                         <div className="md:p-2 p-1 w-full">
                             <img
                                 alt="gallery"
@@ -159,7 +159,7 @@ function ProjectsModal({
                             />
                         </div>
                         <div className="text-left mx-auto pt-8">
-                            <h3 className="tracking-[10px] text-blue-600 text-3xl font-bold	uppercase mb-8 inline-block">
+                            <h3 className="tracking-[3px] md:tracking-[10px] text-blue-600 text-xl md:text-3xl font-bold uppercase mb-8 inline-block">
                                 mobile screens{' '}
                                 <CiMobile1 className="mx-auto mt-4" />
                             </h3>
