@@ -28,8 +28,8 @@ function ContactMe({}: Props) {
         my email: ${formdata.email}`;
     };
     return (
-        <section id="contact" className=' pt-24 md:pt-0'>
-            <div className="relative">
+        <section id="contact">
+            <div className="relative snap-start h-screen pt-24 md:pt-0">
                 <motion.div
                     initial={{ opacity: 0 }}
                     transition={{
@@ -38,11 +38,11 @@ function ContactMe({}: Props) {
                     whileInView={{
                         opacity: 1,
                     }}
-                    className="z-50 snap-start h-screen flex flex-col md:flex-row text-center md:text-left 
+                    className="z-50 flex flex-col md:flex-row text-center md:text-left 
                     relative mx-auto px-4 justify-evenly items-center"
                 >
                     <h3
-                        className="absolute -top-20 md:top-20 tracking-[20px] text-gray-400 text-2xl uppercase z-50"  
+                        className="relative mb-5 md:mb-0 md:absolute md:top-20 tracking-[20px] text-gray-400 text-2xl uppercase z-50"  
                     >
                         contact
                     </h3>
@@ -50,7 +50,7 @@ function ContactMe({}: Props) {
                     <div className="container px-5 mx-auto flex flex-col md:flex-row flex-wrap md:mt-36 items-center justify-between">
                         <div
                             className="w-full md:w-7/12 bg-gray-900 rounded-lg overflow-hidden p-10 flex items-end 
-                        justify-center relative md:h-96 mt-24 md:mt-0"
+                        justify-center relative md:h-96 hidden md:block"
                         >
                             <iframe
                                 width="100%"

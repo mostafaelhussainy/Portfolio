@@ -22,7 +22,7 @@ function Skill({
                 transition={{ duration: 1 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 src={src}
-                className=" border-gray-500 object-contain p-2 h-16 w-16 md:h-24 md:w-24 filter 
+                className=" border-gray-500 object-contain p-2 h-12 w-12 md:h-24 md:w-24 filter 
                 group-hover:grayscale transition duration-300 ease-in-out"
             />
             <div

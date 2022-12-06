@@ -24,7 +24,7 @@ function Skills({}: Props) {
         <section id="skills">
             <motion.div
                 className="snap-start h-screen flex flex-col md:flex-row text-center md:text-left 
-                relative max-w-4xl mx-auto px-4 justify-evenly items-center z-50"
+                relative max-w-4xl mx-auto justify-evenly items-center z-50"
                 initial={{ opacity: 0 }}
                 transition={{
                     duration: 1.5,
@@ -36,7 +36,7 @@ function Skills({}: Props) {
                 <h3 className="absolute top-20 tracking-[20px] text-gray-400 text-2xl uppercase">
                     skills
                 </h3>
-                <h4 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
+                <h4 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm max-w-[270px] md:max-w-full text-left">
                     hover over skill for more details
                     <br />
                     1: learning

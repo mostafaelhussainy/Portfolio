@@ -42,13 +42,13 @@ function About({}: Props) {
                             opacity: 1,
                             x: 0,
                         }}
-                        className="h-64 w-64 md:h-96 mb-10 mt-40 md:mt-36 flex-shrink-0 object-cover 
+                        className="h-44 w-44 md:w-64 md:h-96 mb-3 md:mb-10 mt-36 flex-shrink-0 object-cover 
                     rounded-full md:rounded-lg"
                         src={personalphoto2}
                         alt="my personal photo"
                     />
                     <div className="px-0 md:px-10">
-                        <h4 className="text-2xl md:text-4xl mb-5 md:mb-10 font-semibold">
+                        <h4 className="text-2xl md:text-4xl mb-3 md:mb-10 font-semibold">
                             {text}
                             <Cursor cursorColor="#7B7B0B" />
                         </h4>

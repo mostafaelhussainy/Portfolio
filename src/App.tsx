@@ -9,7 +9,7 @@ import Skills from './components/Skills';
 function App() {
     return (
         <div
-            className="bg-[rgb(36,36,36)] text-white h-screen md:snap-y md:snap-mandatory overflow-y-scroll z-0 scroll-smoth
+            className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll z-0 scroll-smoth
         scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-gray-800"
         >
             <Header />
